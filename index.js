@@ -1,6 +1,6 @@
 // Function to prompt the user for froyo flavors
 const order = () => {
-  return prompt("Please enter your froyo flavors separated by commas:");
+  return prompt("Please enter your froyo flavors separated by commas (no space after the comma):");
 }
 // Prompt the user for froyo flavors
 const orderFlavored = order();
